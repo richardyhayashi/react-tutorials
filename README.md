@@ -1,5 +1,11 @@
 # React Tutorials
 
+## React App
+
+### Create React App
+
+`$ npx create-react-app@latest learn-react-18-smilga`
+
 ## YouTube
 
 `Learn React 18 with Redux Toolkit – Full Tutorial for Beginners` by `freeCodeCamp`, `@CodingAddict; John Smilga`
