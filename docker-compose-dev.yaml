@@ -1,7 +1,7 @@
 services:
   nginx:
     image: nginx:1.27.0-alpine
-    container_name: nginx_${PROJECT_NAME}
+    container_name: ${NGINX_CONTAINER_NAME}
     restart: unless-stopped
     ports:
       - ${NGINX_PORT_OUT}:${NGINX_PORT}
@@ -14,14 +14,14 @@ services:
     #  - ./.env
 
   react-app:
-    image: ${REACT_IMAGE_NAME}-dev:${PROJECT_VERSION}
+    image: ${REACT_IMAGE_NAME}:${PROJECT_VERSION}
+    container_name: ${REACT_CONTAINER_NAME}
     build:
       dockerfile: Dockerfile.dev
       args:
         REACT_APP_NAME: ${PROJECT_NAME}
         REACT_PORT: ${REACT_PORT}
         REACT_SRC_DIR: ${REACT_SRC_DIR}
-    container_name: ${REACT_CONTAINER_NAME}-dev
     #command: sh -c ""
     restart: unless-stopped
     ports:
