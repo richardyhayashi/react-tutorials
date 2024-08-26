@@ -15,3 +15,4 @@
 VS Code
 
 `Ctrl + Shift + A` - Comment On/Off
+`Ctrl + Shift + P` - 

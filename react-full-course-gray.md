@@ -8,7 +8,7 @@ Source: 'https://github.com/gitdagray/react_resources'
  x. Intro
 01. Start Here
 02. App & JSX
-03.
+03. Functional Components
 04.
 05.
 06.
