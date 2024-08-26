@@ -30,9 +30,9 @@ Source: 'https://github.com/bradtraversy/react-crash-2024'
 
 ## Create React Project
 
-`$ npm create vite@latest react-crash-2024` Choose: React, JavaScript<br>
-`$ cd react-crash-2024`<br>
-`$ npm {i|install}`
+`$ npm create vite@latest {react-crash-2024|.} [-- --template react]` Choose: React, JavaScript<br>
+`$ cd react-crash-2024` if react-crash-2024 created<br>
+`$ npm {i|install}`<br>
 
 ### Set Port
 
@@ -53,13 +53,3 @@ In `vite.config.js`:<br>
 ### Run Server
 
 `$ npm run dev`
-
-## Docker
-
-### Start Containers
-
-`$ docker compose up -d`
-
-### Stop Containers
-
-`$ docker compose down`
