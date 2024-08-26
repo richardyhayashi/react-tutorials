@@ -1,5 +1,5 @@
 # Base image.
-FROM node:22.7.0-alpine
+FROM node:22.3.0-alpine
 
 # Set evironment variables.
 ENV LANG=C.UTF-8
@@ -8,6 +8,7 @@ ENV LANG=C.UTF-8
 ARG REACT_APP_NAME
 ARG REACT_PORT
 ARG REACT_SRC_DIR
+ARG REACT_START_DEV_SERVER
 
 # Set up working directory.
 WORKDIR /app
@@ -16,7 +17,7 @@ WORKDIR /app
 COPY /src${REACT_SRC_DIR}/package.json .
 
 # Install packages.
-RUN npm i
+RUN npm install
 
 # Copy directory.
 COPY /src${REACT_SRC_DIR} .
@@ -25,4 +26,5 @@ COPY /src${REACT_SRC_DIR} .
 EXPOSE ${REACT_PORT}
 
 # Start app.
-ENTRYPOINT [ "npm", "start" ]
+ENTRYPOINT ${REACT_START_DEV_SERVER}
+#ENTRYPOINT [ "npm", "run", "dev" ]
