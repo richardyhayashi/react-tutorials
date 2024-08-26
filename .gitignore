@@ -1,3 +1,6 @@
+# Files
 .env
 
+# Folders
 node_modules/
+build/
