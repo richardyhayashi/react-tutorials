@@ -27,3 +27,4 @@ EXPOSE ${REACT_PORT}
 
 # Start app.
 ENTRYPOINT [ "npm", "run", "dev" ]
+#ENTRYPOINT [ "npm", "start" ]
