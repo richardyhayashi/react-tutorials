@@ -53,13 +53,3 @@ In `vite.config.js`:<br>
 ### Run Server
 
 `$ npm run dev`
-
-## Docker
-
-### Start Containers
-
-`$ docker compose up -d`
-
-### Stop Containers
-
-`$ docker compose down`
