@@ -12,7 +12,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 04. Applying CSS Styles
 05. Click Events
 06. useState Hook
-07.
+07. Lists & Keys
 08.
 09.
 10.
@@ -42,4 +42,5 @@ Source: 'https://github.com/gitdagray/react_resources'
 
 Notes:
 
-`styled-components.com`
+`https://styled-components.com/`
+`https://www.npmjs.com/`
