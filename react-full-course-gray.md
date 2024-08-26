@@ -9,7 +9,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 01. Start Here
 02. App & JSX
 03. Functional Components
-04.
+04. Applying CSS Styles
 05.
 06.
 07.
@@ -39,3 +39,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 ### Run React App
 
 `$ npm start`
+
+Notes:
+
+`styled-components.com`
