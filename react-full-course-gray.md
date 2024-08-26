@@ -11,7 +11,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 03. Functional Components
 04. Applying CSS Styles
 05. Click Events
-06.
+06. useState Hook
 07.
 08.
 09.
