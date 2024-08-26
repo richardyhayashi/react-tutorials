@@ -40,6 +40,10 @@ Source: 'https://github.com/gitdagray/react_resources'
 
 `$ npm start`
 
+### Install React Icons
+
+`$ npm i react-icons`
+
 Notes:
 
 `https://styled-components.com/`
