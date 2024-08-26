@@ -10,7 +10,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 02. App & JSX
 03. Functional Components
 04. Applying CSS Styles
-05.
+05. Click Events
 06.
 07.
 08.
