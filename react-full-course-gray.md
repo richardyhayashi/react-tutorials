@@ -14,7 +14,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 06. useState Hook
 07. Lists & Keys
 08. Props & Prop Drilling
-09.
+09. Controlled Component Inputs
 10.
 11.
 12.
