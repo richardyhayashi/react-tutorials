@@ -26,5 +26,5 @@ COPY /src${REACT_SRC_DIR} .
 EXPOSE ${REACT_PORT}
 
 # Start app.
-ENTRYPOINT ${REACT_START_DEV_SERVER}
+ENTRYPOINT [ "npm", "start" ]
 #ENTRYPOINT [ "npm", "run", "dev" ]
