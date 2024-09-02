@@ -13,7 +13,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 05. Click Events
 06. useState Hook
 07. Lists & Keys
-08.
+08. Props & Prop Drilling
 09.
 10.
 11.
