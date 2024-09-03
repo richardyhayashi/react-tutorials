@@ -7,20 +7,41 @@ import { useState, useEffect } from 'react';
 
 function App() {
   const shoppinglist = 'shoppinglist';
-  const [items, setItems] = useState(JSON.parse(localStorage.getItem(shoppinglist)) || []);
+  const API_URL = 'http://localhost:3500/items';
+
+  const [items, setItems] = useState([]);
   const [newItem, setNewItem] = useState('');
   const [search, setSearch] = useState('');
+  const [fetchErr, setFetchErr] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    localStorage.setItem(shoppinglist, JSON.stringify(items));
-  }, [items]);
+    const fetchItems = async () => {
+      try {
+        const response = await fetch(API_URL);
+        if (!response.ok) throw Error('Did not recieve expected data!');
+
+        const listItems = await response.json();
+        setItems(listItems);
+        setFetchErr(null);
+      } catch (err) {
+        setFetchErr(err.message);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    setTimeout(() => {
+      (async () => await fetchItems())();
+    }, 2000);
+  }, []);
 
   const addItem = (item) => {
     const id = items.length ? items[items.length - 1].id + 1 : 1;
     const myNewItem = { id, checked: false, item };
     const listItems = [...items, myNewItem];
     setItems(listItems);
-  }
+  };
 
   const handleCheck = (id) => {
     const listItems = items.map((item) =>
@@ -38,9 +59,9 @@ function App() {
     e.preventDefault();
     if (!newItem) return;
 
-    addItem(newItem)
+    addItem(newItem);
     setNewItem('');
-  }
+  };
 
   return (
     <div className="App">
@@ -50,15 +71,18 @@ function App() {
         setNewItem={setNewItem}
         handleSubmit={handleSubmit}
       />
-      <SearchItem
-        search={search}
-        setSearch={setSearch} 
-      />
-      <Content
-        items={items.filter(item => ((item.item).toLowerCase()).includes(search.toLowerCase()))}
-        handleCheck={handleCheck}
-        handleDelete={handleDelete}
-      />
+      <SearchItem search={search} setSearch={setSearch} />
+      <main>
+        {isLoading && <p>Loading items...</p>}
+        { fetchErr && <p style={{ color: "red" }}>{`Error: ${fetchErr}`}</p> }
+        {!fetchErr && !isLoading && <Content
+          items={items.filter((item) =>
+            item.item.toLowerCase().includes(search.toLowerCase())
+          )}
+          handleCheck={handleCheck}
+          handleDelete={handleDelete}
+        />}
+      </main>
       <Footer length={items.length} />
     </div>
   );
