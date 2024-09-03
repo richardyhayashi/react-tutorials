@@ -18,9 +18,9 @@ Source: 'https://github.com/gitdagray/react_resources'
 10. Project Challenge
 11. useEffect Hook
 12. JSON Server
-13.
-14.
-15.
+13. Fetch API Data
+14. CRUD Operations
+15. Fetch Data Challenge
 16.
 17.
 18.
@@ -52,6 +52,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 
 `https://styled-components.com/`
 `https://www.npmjs.com/`
+`https://jsonplaceholder.typicode.com/`
 
 ## Hooks
 

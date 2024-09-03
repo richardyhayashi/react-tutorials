@@ -24,8 +24,8 @@ services:
     container_name: ${REACT_CONTAINER_NAME}-dev
     #command: sh -c ""
     restart: unless-stopped
-    ports:
-      - ${REACT_PORT_OUT}:${REACT_PORT}
+    #ports:
+    #  - ${REACT_PORT_OUT}:${REACT_PORT}
     volumes:
       - ./src${REACT_SRC_DIR}:/app
       - node_modules:/app/node_modules
