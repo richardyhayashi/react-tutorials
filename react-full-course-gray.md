@@ -16,7 +16,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 08. Props & Prop Drilling
 09. Controlled Component Inputs
 10. Project Challenge
-11.
+11. useEffect Hook
 12.
 13.
 14.
@@ -44,7 +44,12 @@ Source: 'https://github.com/gitdagray/react_resources'
 
 `$ npm i react-icons`
 
-Notes:
+## Websites
 
 `https://styled-components.com/`
 `https://www.npmjs.com/`
+
+## Hooks
+
+* useState
+* useEffect
