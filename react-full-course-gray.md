@@ -17,7 +17,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 09. Controlled Component Inputs
 10. Project Challenge
 11. useEffect Hook
-12.
+12. JSON Server
 13.
 14.
 15.
@@ -43,6 +43,10 @@ Source: 'https://github.com/gitdagray/react_resources'
 ### Install React Icons
 
 `$ npm i react-icons`
+
+### JSON Server
+
+`$ npx json-server -p 3500 -w data/db.json`
 
 ## Websites
 
