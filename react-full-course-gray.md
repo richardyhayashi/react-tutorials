@@ -15,7 +15,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 07. Lists & Keys
 08. Props & Prop Drilling
 09. Controlled Component Inputs
-10.
+10. Project Challenge
 11.
 12.
 13.
