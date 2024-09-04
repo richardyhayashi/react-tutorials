@@ -21,7 +21,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 13. Fetch API Data
 14. CRUD Operations
 15. Fetch Data Challenge
-16.
+16. React Router
 17.
 18.
 19.
@@ -47,6 +47,10 @@ Source: 'https://github.com/gitdagray/react_resources'
 ### JSON Server
 
 `$ npx json-server -p 3500 -w data/db.json`
+
+### Install React Router
+
+`$ npm i react-router-dom -S`
 
 ## Websites
 

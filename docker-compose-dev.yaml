@@ -14,14 +14,14 @@ services:
     #  - ./.env
 
   react-app:
-    image: ${REACT_IMAGE_NAME}-dev:${PROJECT_VERSION}
+    image: ${REACT_IMAGE_NAME}:${PROJECT_VERSION}
     build:
       dockerfile: Dockerfile.dev
       args:
         REACT_APP_NAME: ${PROJECT_NAME}
         REACT_PORT: ${REACT_PORT}
         REACT_SRC_DIR: ${REACT_SRC_DIR}
-    container_name: ${REACT_CONTAINER_NAME}-dev
+    container_name: ${REACT_CONTAINER_NAME}
     #command: sh -c ""
     restart: unless-stopped
     #ports:

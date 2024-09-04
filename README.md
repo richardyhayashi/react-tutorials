@@ -15,5 +15,6 @@ In base folder:
 
 VS Code
 
+`Alt + Mouse Click` - Multi select
 `Ctrl + Shift + A` - Comment On/Off
 `Ctrl + Shift + P` - 
