@@ -22,7 +22,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 14. CRUD Operations
 15. Fetch Data Challenge
 16. React Router
-17.
+17. Router Hooks & Links
 18.
 19.
 20.
@@ -51,6 +51,10 @@ Source: 'https://github.com/gitdagray/react_resources'
 ### Install React Router
 
 `$ npm i react-router-dom -S`
+
+### Install Date Functions
+
+`$ npm i date-fns -S`
 
 ## Websites
 
