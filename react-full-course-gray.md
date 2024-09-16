@@ -25,7 +25,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 17. Router Hooks & Links
 18. Flexbox Components
 19. Axios API Requests
-20.
+20. Custom Hooks
 21.
 22.
 23.
@@ -69,6 +69,10 @@ Source: 'https://github.com/gitdagray/react_resources'
 
 `$ npm i axios [-S]`
 
+### Instal 'react-icons'
+
+`$ npm i react-icons`
+
 ## Websites
 
 `https://styled-components.com/`
@@ -80,6 +84,8 @@ Source: 'https://github.com/gitdagray/react_resources'
 `https://www.npmjs.com/package/axios`
 
 ## Hooks
+
+`Only call hooks at the top level.`
 
 * useState
 * useEffect
