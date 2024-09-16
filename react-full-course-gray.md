@@ -23,7 +23,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 15. Fetch Data Challenge
 16. React Router
 17. Router Hooks & Links
-18.
+18. Flexbox Components
 19.
 20.
 21.
