@@ -24,13 +24,22 @@ Source: 'https://github.com/gitdagray/react_resources'
 16. React Router
 17. Router Hooks & Links
 18. Flexbox Components
-19.
+19. Axios API Requests
 20.
 21.
 22.
 23.
 
 ## Notes
+
+## Start Project
+
+### react-router-tut
+
+1. Start API
+    `$ npmx json-server -p 3500 -w data/db.json`
+2. Start React App
+    `$ npm start`
 
 ## Create React Project
 
@@ -56,11 +65,19 @@ Source: 'https://github.com/gitdagray/react_resources'
 
 `$ npm i date-fns -S`
 
+### Install Axios
+
+`$ npm i axios [-S]`
+
 ## Websites
 
 `https://styled-components.com/`
 `https://www.npmjs.com/`
 `https://jsonplaceholder.typicode.com/`
+
+### Axios
+
+`https://www.npmjs.com/package/axios`
 
 ## Hooks
 
