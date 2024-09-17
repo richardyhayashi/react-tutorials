@@ -14,10 +14,13 @@ const useWindowSize = () => {
       });
     };
 
+    // Call on inital load.
     handleResize();
 
+    // Add eventHandler to handle resize.
     window.addEventListener('resize', handleResize);
 
+    // Removes eventHandler on exit.
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 

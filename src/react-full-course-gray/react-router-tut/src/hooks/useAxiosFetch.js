@@ -12,18 +12,20 @@ const useAxiosFetch = (dataUrl) => {
 
     const fetchData = async (url) => {
       setIsLoading(true);
+
       try {
         const response = await axios.get(url, {
           cancelToken: source.token,
         });
+
         if (isMounted) {
           setData(response.data);
           setFetchError(null);
         }
       } catch (err) {
         if (isMounted) {
-          setFetchError(err.message);
           setData([]);
+          setFetchError(err.message);
         }
       } finally {
         //isMounted && setTimeout(() => setIsLoading(false), 2000);
