@@ -25,16 +25,10 @@
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio! Modi nesciunt excepturi corrupti atque blanditiis quo nobis, non optio quae possimus illum exercitationem ipsa!"
     },
     {
-      "id": "41",
-      "title": "My Test Post",
-      "datetime": "September 16, 24 7:22:32 PM",
-      "body": "Some more testing paragraphs here."
-    },
-    {
-      "id": "411",
-      "title": "Another post",
-      "datetime": "September 16, 24 7:22:57 PM",
-      "body": "ahj adsfsf hk fas fa ajja adf ad "
+      "id": "4111",
+      "title": "Hello there!",
+      "datetime": "September 17, 24 5:30:05 PM",
+      "body": "Where are you from?"
     }
   ]
 }
