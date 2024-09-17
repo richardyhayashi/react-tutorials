@@ -73,6 +73,14 @@ Source: 'https://github.com/gitdagray/react_resources'
 
 `$ npm i react-icons`
 
+### Cleanup Unused Packages
+
+`$ npm uninstall {package-name}`
+
+### Install 'easy-peasy'
+
+`$ npm i easy-peasy`
+
 ## Websites
 
 `https://styled-components.com/`
