@@ -37,7 +37,7 @@ Source: 'https://github.com/gitdagray/react_resources'
 ### react-router-tut
 
 1. Start API
-    `$ npmx json-server -p 3500 -w data/db.json`
+    `$ npx json-server -p 3500 -w data/db.json`
 2. Start React App
     `$ npm start`
 
