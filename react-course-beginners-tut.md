@@ -12,7 +12,7 @@ Source:
 5. First React Practice 
 6. Local Setup (the quick way)
 7. Why React?
-8.
+8. JSX
 9.
 10.
 
