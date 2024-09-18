@@ -5,13 +5,23 @@ YouTube: `https://www.youtube.com/watch?v=bMknfKXIFA8&t=135s`
 
 Source:
 
-1.
-2.
-3.
-4.
+1. Introduction
+2. What we'll learn
+3. Fun facts about react link: https://www.figma.com/file/xA1rJVQOor...
+4. First react
 5.
 6.
 7.
 8.
 9.
 10.
+
+
+Need:
+* HTML
+* CSS
+* JavaScript
+* ES6
+
+Links:
+* https://reactjs.org/docs/cdn-links.html
