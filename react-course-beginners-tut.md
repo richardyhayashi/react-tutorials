@@ -10,8 +10,8 @@ Source:
 3. Fun facts about react link: https://www.figma.com/file/xA1rJVQOor...
 4. First react
 5. First React Practice 
-6.
-7.
+6. Local Setup (the quick way)
+7. Why React?
 8.
 9.
 10.
