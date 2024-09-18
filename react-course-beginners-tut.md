@@ -15,8 +15,8 @@ Source:
 08. JSX
 09. Goodbye, CDNs!
 10. Thought Experiment
-11.
-12.
+11. Project 1 Part 1 - MarkUp
+12. Pop Quiz!
 13.
 14.
 15.
