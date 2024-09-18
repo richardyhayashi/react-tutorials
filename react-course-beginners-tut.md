@@ -5,16 +5,26 @@ YouTube: `https://www.youtube.com/watch?v=bMknfKXIFA8&t=135s`
 
 Source:
 
-1. Introduction
-2. What we'll learn
-3. Fun facts about react link: https://www.figma.com/file/xA1rJVQOor...
-4. First react
-5. First React Practice 
-6. Local Setup (the quick way)
-7. Why React?
-8. JSX
-9.
-10.
+01. Introduction
+02. What we'll learn
+03. Fun facts about react link: https://www.figma.com/file/xA1rJVQOor...
+04. First react
+05. First React Practice 
+06. Local Setup (the quick way)
+07. Why React?
+08. JSX
+09. Goodbye, CDNs!
+10. Thought Experiment
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
 
 
 Need:
