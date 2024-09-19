@@ -30,7 +30,7 @@ Source:
 23. Project Setup
 24. Navbar and Styling
 25. Main Section
-26.
+26. Color The Bullets
 27.
 28.
 29.
