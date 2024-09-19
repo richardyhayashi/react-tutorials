@@ -18,14 +18,23 @@ Source:
 11. Project 1 Part 1 - MarkUp
 12. Pop Quiz!
 13. Components
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-
+14. Setup a local React environment w/ Create React App
+15. Babel, Bundler, Build
+16. Create React app: https://create-react-app.dev/
+17. How to install Node.js
+18. Use nvm or nvm-windows
+19. How to install Node.js
+20. 
+21. 
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
 
 Need:
 * HTML
@@ -35,3 +44,11 @@ Need:
 
 Links:
 * https://reactjs.org/docs/cdn-links.html
+
+## Create React App
+
+`$ npm create vite@latest {.|project-name} -- --template react`
+
+Notes:
+`https://create-react-app.dev/docs/adding-images-fonts-and-files/`
+`https://create-react-app.dev/docs/using-the-public-folder/`
