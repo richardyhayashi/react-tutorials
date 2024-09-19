@@ -29,7 +29,7 @@ Source:
 22. Quick Figma Walkthrough
 23. Project Setup
 24. Navbar and Styling
-25.
+25. Main Section
 26.
 27.
 28.
