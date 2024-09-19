@@ -28,7 +28,7 @@ Source:
 21. Quick Mental Outline of Project 
 22. Quick Figma Walkthrough
 23. Project Setup
-24.
+24. Navbar and Styling
 25.
 26.
 27.
