@@ -24,10 +24,10 @@ Source:
 17. How to install Node.js
 18. Use nvm or nvm-windows
 19. How to install Node.js
-20. 
-21. 
-22.
-23.
+20. Styles and images with CRA
+21. Quick Mental Outline of Project 
+22. Quick Figma Walkthrough
+23. Project Setup
 24.
 25.
 26.
@@ -44,6 +44,7 @@ Need:
 
 Links:
 * https://reactjs.org/docs/cdn-links.html
+* https://www.figma.com/design/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0-1&node-type=canvas&t=5kC76nnbYmGlUQQl-0
 
 ## Create React App
 
