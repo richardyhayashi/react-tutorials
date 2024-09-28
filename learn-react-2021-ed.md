@@ -7,7 +7,7 @@ Source:
 
 1. Introduction to React
 2. useState & Basic Components Structure
-3.
+3. Props, Destructuring, and Spreading
 4.
 5.
 6.
